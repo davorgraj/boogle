@@ -1,0 +1,55 @@
+header {
+  height: 50px;
+  margin: 0 100px 0 100px;
+
+  ul {
+    float: right;
+    list-style-type: none;
+    padding-right: 10px;
+
+    li {
+      float: left;
+
+      li, a {
+        padding-left: 20px;
+        text-decoration: none;
+        color: @black;
+
+        i, .fa {
+          font-size: 25px;
+          margin-top: -2px;
+          &:hover {
+            color: #3c3b3b42;
+          }
+        }
+
+        button {
+          display: inline-block;
+          position: relative;
+          color: white;
+          background-color: #4285f4;
+          border: 1px solid #4285f4;
+          padding: 6px 10px 6px 10px;
+          margin: -4px;
+          border-radius: 2px;
+          font-weight: bold;
+
+          &:hover {
+            box-shadow: 0 1px 0 rgba(0,0,0,.15);
+          }
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+footer {
+  .right {
+    select {
+      width: 150px;
+      margin-top: 13px;
+    }
+  }
+}
